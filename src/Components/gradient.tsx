@@ -5,7 +5,7 @@ function Gradient() {
   return (
     <div className='h-full w-full'>
     <BackgroundGradientAnimation>
-      
+  
     </BackgroundGradientAnimation>
     </div>
    
