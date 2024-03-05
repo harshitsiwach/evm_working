@@ -2,6 +2,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
 
 const MyComponent: React.FC = () => {
   const [currentTime, setCurrentTime] = useState<string>('');
@@ -30,7 +32,7 @@ const MyComponent: React.FC = () => {
           <Image src="/TextLogo_44.png" alt="My Image" width={100} height={100} />
           </Link>
           
-          <div className='font-bold cursor-pointer text-red-600 hover:text-white'  >CONNECT WALLET</div>
+          <div className='font-bold cursor-pointer text-red-600 hover:text-white'  ><ConnectButton/></div>
           <div className='w-[65px] mr-9'>
           <div className='text-red-600' >{currentTime}</div>
           </div>
