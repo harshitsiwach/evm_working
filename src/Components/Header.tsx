@@ -26,7 +26,7 @@ const MyComponent: React.FC = () => {
 
   return (
     <>
-      <div className="h-[80px]  top-0 w-screen flex fixed">
+      <div className="h-[80px] z-20 top-0 w-screen flex fixed">
         <div className="flex justify-between items-center w-full">
           <Link href={"/"}>
           <Image src="/TextLogo_44.png" alt="My Image" width={100} height={100} />
