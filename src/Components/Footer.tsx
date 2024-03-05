@@ -13,7 +13,7 @@ function Footer() {
         </div>
         <div className="">
             <Link href={"/"}>
-            <Image className="bg-transparent transition-transform hover:scale-110 cursor-pointer" src='/logoBlack2.png' alt="image" width={70} height={80}/>
+            <Image className="bg-transparent transition-transform hover:scale-110 cursor-pointer" src='/logoBlackT.png' alt="image" width={70} height={80}/>
             </Link>
             
         </div>
