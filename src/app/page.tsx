@@ -1,19 +1,10 @@
-import Header from "@/Components/Header";
-import Footer from "@/Components/Footer";
-import MainIcon from "@/Components/MainIcon";
+
+import Gradient from "@/Components/gradient";
+
 
 export default function Home() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
-      <div className="relative z-10">
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <div className="flex-grow">
-            <MainIcon />
-          </div>
-          <Footer />
-        </div>
-      </div>
-    </div>
+   <Gradient/>
+    
   );
 }
