@@ -36,7 +36,7 @@ const MyComponent: React.FC = () => {
           <Image src="/TextLogo_44.png" alt="My Image" width={100} height={100} />
           </Link>
           
-          <button className="inline-flex h-10 animate-shimmer items-center justify-center rounded-md border border-red-800 bg-[linear-gradient(110deg,#000103,45%,#F52239,55%,#000103)] bg-[length:200%_100%] px-6 text-sm text-red-500 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <button className="inline-flex h-10 animate-shimmer items-center justify-center rounded-md border border-red-800 bg-[linear-gradient(110deg,#000103,45%,#F52239,55%,#000103)] bg-[length:200%_100%] px-6 text-sm text-red-500 transition-colors  ">
           <ConnectButton.Custom>
       {({
         account,

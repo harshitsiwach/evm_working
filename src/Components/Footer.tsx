@@ -2,12 +2,12 @@ import Image from "next/image"
 import Link from "next/link"
 function Footer() {
   return (
-    <div className=" p-5 bottom-0 flex fixed w-full justify-between items-center h-[80px] ">
+    <div className=" p-5 bg-black bottom-0 flex fixed w-full justify-between items-center h-[80px] ">
         <div className="text-xs font-bold md:text-xs  gap-5  md:gap-9 flex text-red-600">
             <div >
-                <Link className="hover:text-white" href={"/about"}>
+               
                 DOWNLOAD
-                </Link>
+               
                </div>
           
         </div>

@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "react-element-to-jsx-string": "^15.0.0",
     "sonner": "^1.4.3",
+    "swiper": "^11.0.7",
     "tailwind-merge": "^2.2.1",
     "wagmi": "^1.4.13"
   },
