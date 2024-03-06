@@ -11,6 +11,14 @@ const config: Config = {
     extend: {
       
       keyframes: {
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
         circularPath: {
           '0%': { transform: 'rotate(0deg) translateX(100px) rotate(0deg)' },
           '100%': { transform: 'rotate(360deg) translateX(100px) rotate(-360deg)' },
@@ -18,7 +26,9 @@ const config: Config = {
       },
       animation: {
         'circular-path': 'circularPath 5s linear infinite',
+        shimmer: "shimmer 2s linear infinite",
       },
+      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
