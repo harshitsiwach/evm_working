@@ -9,22 +9,76 @@ function page() {
   return (
  
     <div className='  h-screen flex items-center justify-center '>
-        <div className='w-[900px]  '>
-     <Swiper navigation={true} modules={[Navigation]} className="mySwiper ">
+        <div className='w-full sm:w-4/6 h-full flex justify-center items center '>
+     <Swiper navigation={true} modules={[Navigation]} className="mySwiper  ">
       
-        <SwiperSlide>
-            <div className='ml-9'>
-                GAME MODES
+        <SwiperSlide >
+            <div className=' h-full text-3xl gap-10 w-full flex flex-col items-center justify-center sm:text-7xl p-4 '>
+                WHAT IS EVM WARFARE
+                <div className='text-sm text-center flex items-center justify-center'>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laborum esse natus accusamus, consequuntur  <br />
+              Pariatur iure earum nisi ea, consequuntur ipsam placeat, nulla autem illum vel libero doloremque quis  <br />
+              Quod, amet? Rerum exercitationem sunt ipsum nam aliquam aspernatur qui explicabo laudantium autem sed  <br />
             </div>
+            </div>
+           
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide >
+            <div className=' h-full text-3xl gap-10 w-full flex flex-col items-center justify-center sm:text-7xl p-4 '>
+                WHAT IS EVM WARFARE
+                <div className='text-sm text-center  flex items-center justify-center'>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laborum esse natus accusamus, consequuntur  <br />
+              Pariatur iure earum nisi ea, consequuntur ipsam placeat, nulla autem illum vel libero doloremque quis  <br />
+              Quod, amet? Rerum exercitationem sunt ipsum nam aliquam aspernatur qui explicabo laudantium autem sed  <br />
+            </div>
+            </div>
+           
+        </SwiperSlide>
+        <SwiperSlide >
+            <div className=' h-full  text-3xl gap-10 w-full flex flex-col items-center justify-center sm:text-7xl p-4 '>
+                WHAT IS EVM WARFARE
+                <div className='text-sm text-center flex items-center justify-center'>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laborum esse natus accusamus, consequuntur  <br />
+              Pariatur iure earum nisi ea, consequuntur ipsam placeat, nulla autem illum vel libero doloremque quis  <br />
+              Quod, amet? Rerum exercitationem sunt ipsum nam aliquam aspernatur qui explicabo laudantium autem sed  <br />
+            </div>
+            </div>
+           
+        </SwiperSlide>
+        <SwiperSlide >
+            <div className=' h-full text-3xl gap-10 w-full flex flex-col items-center justify-center sm:text-7xl p-4 '>
+                WHAT IS EVM WARFARE
+                <div className='text-sm text-center flex items-center justify-center'>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laborum esse natus accusamus, consequuntur  <br />
+              Pariatur iure earum nisi ea, consequuntur ipsam placeat, nulla autem illum vel libero doloremque quis  <br />
+              Quod, amet? Rerum exercitationem sunt ipsum nam aliquam aspernatur qui explicabo laudantium autem sed  <br />
+            </div>
+            </div>
+           
+        </SwiperSlide>
+        <SwiperSlide >
+            <div className=' h-full text-3xl gap-10 w-full flex flex-col items-center justify-center sm:text-7xl p-4 '>
+                WHAT IS EVM WARFARE
+                <div className='text-sm flex text-center items-center justify-center'>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laborum esse natus accusamus, consequuntur  <br />
+              Pariatur iure earum nisi ea, consequuntur ipsam placeat, nulla autem illum vel libero doloremque quis  <br />
+              Quod, amet? Rerum exercitationem sunt ipsum nam aliquam aspernatur qui explicabo laudantium autem sed  <br />
+            </div>
+            </div>
+           
+        </SwiperSlide>
+        <SwiperSlide >
+            <div className=' h-full text-3xl gap-10 w-full flex flex-col items-center justify-center sm:text-7xl p-4 '>
+                WHAT IS EVM WARFARE
+                <div className='text-sm flex text-center items-center justify-center'>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laborum esse natus accusamus, consequuntur  <br />
+              Pariatur iure earum nisi ea, consequuntur ipsam placeat, nulla autem illum vel libero doloremque quis  <br />
+              Quod, amet? Rerum exercitationem sunt ipsum nam aliquam aspernatur qui explicabo laudantium autem sed  <br />
+            </div>
+            </div>
+           
+        </SwiperSlide>
+       
      
       </Swiper>
       </div>
