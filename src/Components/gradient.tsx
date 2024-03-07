@@ -33,6 +33,7 @@ function Gradient() {
             </div>
 
             <div className='flex flex-col items-center w-[70px]'>
+             <Link className='flex flex-col items-center w-[70px]' href="/characters">
               <Image
                 src="/Icons/goat.png"
                 alt='home image'
@@ -40,8 +41,9 @@ function Gradient() {
                 width={40}
               />
               <span>Characters</span>
+              </Link>
             </div>
-            
+           
             <div className='flex flex-col items-center w-[70px]'>
               <Image
                 src="/Icons/satanic (1).png"
