@@ -35,7 +35,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily : {
-        warfame : ["Press Start 2P", "cursive"]
+      evm2 : ["Press Start 2P", "system-ui"]
       }
     },
     
