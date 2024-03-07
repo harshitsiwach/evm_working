@@ -7,12 +7,20 @@ function page() {
         <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-warfame ">
         STORY
        </div>
+<<<<<<< HEAD
+        <div className=" w-[700px] flex justify-start">
+        SETTING: <br/>
+        In the shadows of a crumbling metropolis, a dystopian future breeds an arena of savagery and despair. The year is 2140, a time when the last Bitcoin will be minted, and the world is on the brink of chaos. Amidst the decay, the affluent elite revel in the twisted spectacle of survival and slaughter.
+        </div>
+        <div className=" w-[700px] flex justify-start">
+=======
        
         <div className="w-5/6  sm:w-[700px] flex justify-start">
         SETTING: <br/>
         In the shadows of a crumbling metropolis, a dystopian future breeds an arena of savagery and despair. The year is 2140, a time when the last Bitcoin will be minted, and the world is on the brink of chaos. Amidst the decay, the affluent elite revel in the twisted spectacle of survival and slaughter.
         </div>
         <div className=" w-5/6  sm:w-[700px]  flex justify-start">
+>>>>>>> 820e17bc35ba299a4615b13568b2fa708969e9ab
         Storyline: <br/>
         Welcome to "EVM Warfare" where the rich trade in human lives, plucking the desperate from the streets to wage their battles of blood and bullets. In this brutal theater of cruelty, hope is a distant memory, and every step forward is stained with the blood of the fallen.        
         </div>
