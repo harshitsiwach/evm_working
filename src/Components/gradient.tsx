@@ -43,7 +43,7 @@ function Gradient() {
               <span>Characters</span>
               </Link>
             </div>
-           
+            <Link href="/media">
             <div className='flex flex-col items-center w-[70px]'>
               <Image
                 src="/Icons/satanic (1).png"
@@ -53,6 +53,7 @@ function Gradient() {
               />
               <span>Media</span>
             </div>
+            </Link>
             
             <div className='flex flex-col items-center w-[70px]'>
               <Image

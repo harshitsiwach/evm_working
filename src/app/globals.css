@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Press+Start+2P&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,4 +32,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+@font-face {
+  font-family: 'PressStart2p';
+  src: url('/Font/PressStart2P.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PLusJakarta';
+  src: url('/Font/PlusJakartaDisplay-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
