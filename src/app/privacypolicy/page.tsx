@@ -83,7 +83,6 @@ const Page = () => {
 
         {/* Section 9: Children's Privacy */}
         <div className={styles.box}>
-          <h2 className={styles.subHeading}>9.Children's Privacy</h2>
           <h2 className={styles.subHeading}>9. Childrens Privacy</h2>
           <p className={styles.paragraph}>
             EVM Warfare adheres to region-specific ratings and regulations, including ACB, CERO, CSRR, ESRB, FBP, Generic, OFLC, PEGI, and USK, to ensure appropriate content and privacy measures for our younger players.
@@ -95,7 +94,7 @@ const Page = () => {
           <h2 className={styles.subHeading}>10.Contact Information and User Support</h2>
           <h2 className={styles.subHeading}>A.Contacting Us</h2>
           <p className={styles.paragraph}>
-          If you have any questions about this Policy, our practices regarding your personal information related to the Site or Game, or if you would like to have us remove your information from our database and deactivate your Account, please contact us at <Link className='text-red-600' href='evmwarfare.com/privacypolicy'>evmwarfare@proton.me</Link> or reach out to us via our social media platforms <Link className='text-red-600' href='https://twitter.com/evmwarfare'> [Twitter / X]</Link> <Link className='text-red-600' href="https://discord.com/invite/H42wMEXrbg">[Discord]</Link> <Link className='text-red-600' href='https://www.instagram.com/evm_warfare/'>[Instagram]</Link> . We will respond to your request to access within 7 days. We're here to assist you and address your concerns.
+          If you have any questions about this Policy, our practices regarding your personal information related to the Site or Game, or if you would like to have us remove your information from our database and deactivate your Account, please contact us at <Link className='text-red-600' href='evmwarfare.com/privacypolicy'>evmwarfare@proton.me</Link> or reach out to us via our social media platforms <Link className='text-red-600' href='https://twitter.com/evmwarfare'> [Twitter / X]</Link> <Link className='text-red-600' href="https://discord.com/invite/H42wMEXrbg">[Discord]</Link> <Link className='text-red-600' href='https://www.instagram.com/evm_warfare/'>[Instagram]</Link> . We will respond to your request to access within 7 days. We are here to assist you and address your concerns.
           Please note that the deletion of your data will lead to the termination of your Account and applicable services. However, also note that when you delete your Account, we may retain your Account information for a reasonable period of time afterward for the purpose of internal account management and fraud prevention activities.          </p>
         
           <h2 className={styles.subHeading}>B.Updates and Changes</h2>
