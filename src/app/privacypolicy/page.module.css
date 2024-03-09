@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'PressStart2p';
+    src: url('/Font/PressStart2P.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PLusJakarta';
+    src: url('/Font/PlusJakartaDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .container {
+     /* Fallback to Arial if Lemon Milk is not available */
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    overflow-y: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .heading {
+    font-size: 25px; /* Increased font size for headings */
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.7); /* Blurry shadow for the blur effect */
+    border-radius: 5px; /* Optional: adds rounded corners to the box */
+    animation: colorChange 3s infinite; /* Apply the animation */
+    font-family: 'PressStart2p';
+  }
+  
+  @keyframes colorChange {
+    0% { color: #F52239; }
+    33% {  color: #F52239; }
+    66% {  color: #F52239; }
+    100% {  color: #F52239; }
+  }
+  
+  .subHeading {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    font-family: 'PressStart2p';
+  }
+  
+  .subHeading:hover {
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+
+  
+  .paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: "PLusJakarta";
+  }
+  
+  .box {
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    opacity: 0.5;
+  }
+  
+  .box:hover {
+    color: #f1f1f1;
+    background-color: grey;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  
+  /* Custom Scrollbar */
+  .container::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

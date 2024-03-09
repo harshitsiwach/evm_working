@@ -6,7 +6,7 @@ function page() {
       <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
         <Image
           className="transition duration-300 ease-in-out"
-        src="/Characters/C1.png"
+        src="/Characters/SHINBI.png"
         alt="alt"
         height={280}
         width={280}
@@ -17,24 +17,11 @@ function page() {
         </div>
         </div>
 {/* --------------------------------------SECOND CARD ----------------------------------------------- */}
+        
         <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
         <Image
           className="transition duration-300 ease-in-out"
-        src="/Characters/C2.png"
-        alt="alt"
-        height={280}
-        width={280}
-        />
-         <div className="absolute bottom-0 left-0 w-full px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-linear backdrop-blur-md" >
-        <p className="text-white text-xl">COUNTESS</p>
-        <p className="text-xs">From a young age, she's been trained to kill. This dual-wielding assassin moves through shadows to quickly end enemies.</p>
-        </div>
-        </div>
-{/* --------------------------------------THIRD CARD ----------------------------------------------- */}
-        <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
-        <Image
-          className="transition duration-300 ease-in-out"
-        src="/Characters/C3.png"
+        src="/Characters/WRAITH.png"
         alt="alt"
         height={280}
         width={280}
@@ -44,11 +31,13 @@ function page() {
         <p className="text-xs">Born on Rutas as the son of a famous politician of the Shakkadian Empire, Wraith suffered from a critical burn during an accident.</p>
         </div>
         </div>
+{/* --------------------------------------THIRD CARD ----------------------------------------------- */}
+       
 {/* --------------------------------------FOURTH CARD ----------------------------------------------- */}
         <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
         <Image
           className="transition duration-300 ease-in-out"
-        src="/Characters/C4.png"
+        src="/Characters/TWINBLAST.png"
         alt="alt"
         height={280}
         width={280}
@@ -62,7 +51,7 @@ function page() {
         <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
         <Image
           className="transition duration-300 ease-in-out"
-        src="/Characters/C1.png"
+        src="/Characters/ZINA.png"
         alt="alt"
         height={280}
         width={280}
@@ -70,6 +59,20 @@ function page() {
          <div className="absolute bottom-0 left-0 w-full px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-linear backdrop-blur-md" >
         <p className="text-white text-xl">ZENA</p>
         <p className="text-xs">Virtual idol trainee from another dimension who was summoned by Shinbi's phantom wolves to the planet Prime.</p>
+        </div>
+        </div>
+
+        <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
+        <Image
+          className="transition duration-300 ease-in-out"
+        src="/Characters/COUNTESS.png"
+        alt="alt"
+        height={280}
+        width={280}
+        />
+         <div className="absolute bottom-0 left-0 w-full px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-linear backdrop-blur-md" >
+        <p className="text-white text-xl">COUNTESS</p>
+        <p className="text-xs">From a young age, she's been trained to kill. This dual-wielding assassin moves through shadows to quickly end enemies.</p>
         </div>
         </div>
     </div>
