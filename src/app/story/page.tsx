@@ -16,7 +16,7 @@ function page() {
           <div className=" text-[#FF7744] w-5/6 sm:w-[700px] flex flex-col justify-start">
             Storyline: <br />
             <div className="text-[#717CA8]">
-            Welcome to "EVM Warfare" where the rich trade in human lives, plucking the desperate from the streets to wage their battles of blood and bullets. In this brutal theater of cruelty, hope is a distant memory, and every step forward is stained with the blood of the fallen.
+            Welcome to EVM Warfare where the rich trade in human lives, plucking the desperate from the streets to wage their battles of blood and bullets. In this brutal theater of cruelty, hope is a distant memory, and every step forward is stained with the blood of the fallen.
             </div>
           </div>
           <div className=" text-[#FF7744] w-5/6 sm:w-[700px] flex flex-col justify-start">
@@ -34,7 +34,7 @@ function page() {
           <div className=" text-[#FF7744] w-5/6 sm:w-[700px] flex flex-col justify-start">
             Conclusion: <br />
             <div className="text-[#717CA8]">
-            As players plunge deeper into the heart of darkness, they must grapple with their own morality in a world where survival demands sacrifice and every victory comes at a cost. Will they embrace the darkness that surrounds them, or will they defy the shadows to carve out a path of redemption? In the merciless arena of "EVM Warfare" the line between hero and villain blurs, and only the strong will survive to claim their place in the annals of infamy.
+            As players plunge deeper into the heart of darkness, they must grapple with their own morality in a world where survival demands sacrifice and every victory comes at a cost. Will they embrace the darkness that surrounds them, or will they defy the shadows to carve out a path of redemption? In the merciless arena of EVM Warfare the line between hero and villain blurs, and only the strong will survive to claim their place in the annals of infamy.
             </div>
           </div>
         </div>
