@@ -13,8 +13,6 @@
     "@tabler/icons-react": "^2.47.0",
     "@vercel/speed-insights": "^1.0.10",
     "clsx": "^2.1.0",
-    "framer": "^2.4.1",
-    "framer-motion": "^5.2.1",
     "next": "14.1.1",
     "npm": "^10.5.0",
     "pino-pretty": "^10.3.1",
