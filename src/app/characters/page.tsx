@@ -58,7 +58,7 @@ function page() {
         />
          <div className="absolute bottom-0 left-0 w-full px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-linear backdrop-blur-md" >
         <p className="text-white text-xl">ZENA</p>
-        <p className="text-xs">Virtual idol trainee from another dimension who was summoned by Shinbi's phantom wolves to the planet Prime.</p>
+        <p className="text-xs">Virtual idol trainee from another dimension who was summoned by Shinbis phantom wolves to the planet Prime.</p>
         </div>
         </div>
 
