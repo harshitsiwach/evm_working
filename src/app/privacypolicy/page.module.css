@@ -45,9 +45,9 @@
   
   .subHeading {
     font-size: 20px;
-    color: white;
+    color: #F52239;
     margin-top: 20px;
-    text-align: center;
+    
     padding: 5px;
     transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
@@ -58,12 +58,7 @@
     font-family: 'PressStart2p';
   }
   
-  .subHeading:hover {
-    color: white;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-  }
+
 
   
   .paragraph {
@@ -82,31 +77,8 @@
     margin-bottom: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
-    opacity: 0.5;
-  }
-  
-  .box:hover {
-    color: #f1f1f1;
-    background-color: grey;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     opacity: 1;
   }
   
-  /* Custom Scrollbar */
-  .container::-webkit-scrollbar {
-    width: 8px;
-  }
   
-  .container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  .container::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  .container::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
   

@@ -36,7 +36,7 @@ body {
 @font-face {
   font-family: 'PressStart2p';
   src: url('/Font/PressStart2P.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: lighter;
   font-style: normal;
 }
 @font-face {

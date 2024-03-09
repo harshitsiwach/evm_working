@@ -21,7 +21,7 @@ function page() {
             
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[500px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989547.jpg'
@@ -31,7 +31,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[500px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989559.jpg'
@@ -41,7 +41,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[500px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989562.jpg'
@@ -52,7 +52,7 @@ function page() {
 
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[500px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989565.jpg'
@@ -62,7 +62,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[500px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7984696.jpg'

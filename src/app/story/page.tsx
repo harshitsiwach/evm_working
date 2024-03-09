@@ -9,7 +9,7 @@ function page() {
           </div>
           <div className="text-[#EE4444] w-5/6 sm:w-[700px] flex flex-col justify-start">
             SETTING: <br />
-            <div className="text-[#717CA8]">
+            <div className="text-[#717CA8]  text-sm">
             In the shadows of a crumbling metropolis, a dystopian future breeds an arena of savagery and despair. The year is 2140, a time when the last Bitcoin will be minted, and the world is on the brink of chaos. Amidst the decay, the affluent elite revel in the twisted spectacle of survival and slaughter.
             </div>
           </div>
