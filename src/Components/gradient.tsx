@@ -54,7 +54,7 @@ function Gradient() {
               <span>Media</span>
             </div>
             </Link>
-            
+            <Link href='/team'>
             <div className='flex flex-col items-center w-[70px]'>
               <Image
                 src="/Icons/666.png"
@@ -64,6 +64,7 @@ function Gradient() {
               />
               <span>Team</span>
             </div>
+            </Link>
           </div>
         </div>
       </BackgroundGradientAnimation>
