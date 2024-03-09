@@ -21,10 +21,9 @@ function page() {
         <div className="grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer border  rounded-lg border-gray-800 relative group ">
         <Image
           className="transition duration-300 ease-in-out"
-<<<<<<< HEAD
+        
         src="/Characters/WRAITH.png"
-=======
-        src="/Characters/C2.png"
+        // src="/Characters/C2.png"
         alt="alt"
         height={280}
         width={280}
