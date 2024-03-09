@@ -84,6 +84,7 @@ const Page = () => {
         {/* Section 9: Children's Privacy */}
         <div className={styles.box}>
           <h2 className={styles.subHeading}>9.Children's Privacy</h2>
+          <h2 className={styles.subHeading}>9. Childrens Privacy</h2>
           <p className={styles.paragraph}>
             EVM Warfare adheres to region-specific ratings and regulations, including ACB, CERO, CSRR, ESRB, FBP, Generic, OFLC, PEGI, and USK, to ensure appropriate content and privacy measures for our younger players.
           </p>

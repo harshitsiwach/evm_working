@@ -72,7 +72,7 @@ function page() {
         />
          <div className="absolute bottom-0 left-0 w-full px-4 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-linear backdrop-blur-md" >
         <p className="text-white text-xl">COUNTESS</p>
-        <p className="text-xs">From a young age, she's been trained to kill. This dual-wielding assassin moves through shadows to quickly end enemies.</p>
+        <p className="text-xs">From a young age, she is been trained to kill. This dual wielding assassin moves through shadows to quickly end enemies.</p>
         </div>
         </div>
     </div>
