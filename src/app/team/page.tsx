@@ -71,6 +71,26 @@ function page() {
             width={500}
             />
         </div>
+
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+            <Image
+            className="object-cover h-full"
+            src='/Team/7989556.jpg'
+            alt="star"
+            height={500}
+            width={500}
+            />
+        </div>
+
+        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+            <Image
+            className="object-cover h-full"
+            src='/Team/7993350.jpg'
+            alt="star"
+            height={500}
+            width={500}
+            />
+        </div>
     </div>
   )
 }

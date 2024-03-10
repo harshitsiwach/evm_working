@@ -12,6 +12,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "EVM WARFARE",
   description: "EVM WARFARE",
+  icons :{
+    icon : ['/Favicon/favicon.ico'],
+    apple : ['/Favicon/apple-touch-icon.png'],
+    android : ['/Favicon/android-chrome-512x512.png', '/Favicon/android-chrome-192x192.png']
+    
+}as any
 };
 
 export default function RootLayout({
@@ -21,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body className={inter.className}>
       <Providers>
         <Header/>

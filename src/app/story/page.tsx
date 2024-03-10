@@ -2,7 +2,7 @@
 
 function page() {
   return (
-        <div className="h-[490px] sm:h-[570px] overflow-auto mt-[80px] mb-[80px] flex justify-center items-start">
+        <div className="h-[490px] sm:h-[570px] overflow-auto mt-[80px]  flex justify-center items-start">
         <div className="flex gap-4 w-screen items-center flex-col" style={{fontFamily : "PressStart2P"}}>
           <div className=" text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#F52239] font-PressStart2p"style={{fontFamily : "PressStart2P"}}>
             STORY
