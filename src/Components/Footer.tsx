@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 function Footer() {
   return (
-    <div className=" p-5 z-20 bottom-0 flex fixed w-full justify-between items-center h-[80px] ">
+    <div className=" p-5 z-20 bottom-0 flex fixed w-full justify-between items-center h-[80px] bg-black sm:bg-transparent ">
         <div className="text-xs font-bold md:text-xs  gap-5  md:gap-9 flex text-red-600">
             <div className="cursor-pointer hover:text-white">
                

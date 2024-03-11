@@ -8,9 +8,10 @@ import { toast, Toaster } from "sonner";
 import { ButtonsCard } from "@/Components/ui/tailwindcss-buttons";
  
 
-
+// time function
 const MyComponent: React.FC = () => {
   const [currentTime, setCurrentTime] = useState<string>('');
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
   const updateCurrentTime = () => {
     const now = new Date();
@@ -28,9 +29,25 @@ const MyComponent: React.FC = () => {
     return () => clearInterval(intervalId);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    
+    // Listen for scroll events
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  
   return (
     <>
-      <div className="h-[80px] z-20 top-0 w-screen flex fixed backdrop-blur-lg">
+      <div  className={`h-[80px] z-20 top-0 w-screen flex fixed ${isScrolled ? 'bg-black' : 'bg-transparent sm:bg-transparent'}`}> 
         <div className="flex justify-between items-center w-full">
           <Link href={"/"}>
           <Image src="/TextLogo_44.png" alt="My Image" width={100} height={100} />
