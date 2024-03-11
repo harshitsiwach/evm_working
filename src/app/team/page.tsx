@@ -3,8 +3,8 @@ import Image from "next/image"
 
 function page() {
   return (
-    <div className='h-screen overflow-hidden  gap-5 flex justify-center items-center'>
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+    <div className='flex flex-col sm:mt-0 mt-[80px] items-center justify-center sm:h-screen overflow-hidden  gap-5 sm:flex sm:flex-row sm:justify-center sm:items-center'>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
           
             <Image
             className="object-cover h-full"
@@ -21,7 +21,7 @@ function page() {
             
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989547.jpg'
@@ -31,7 +31,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989559.jpg'
@@ -41,7 +41,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989562.jpg'
@@ -52,7 +52,7 @@ function page() {
 
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989565.jpg'
@@ -62,7 +62,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7984696.jpg'
@@ -72,7 +72,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7989556.jpg'
@@ -82,7 +82,7 @@ function page() {
             />
         </div>
 
-        <div className='h-[500px] w-[100px] hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
+        <div className='h-[50px] hover:h-[500px] sm:h-[500px] sm:w-[100px] sm:hover:w-[400px] ease-in-out duration-300 cursor-pointer bg-red-800 '>
             <Image
             className="object-cover h-full"
             src='/Team/7993350.jpg'

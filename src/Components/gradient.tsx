@@ -7,7 +7,7 @@ function Gradient() {
     <div className='h-screen w-screen'>
       <BackgroundGradientAnimation className=' absolute'>
         <div className='flex justify-center items-center h-full'>
-          <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative top-40  md:left-[20px]'>
+          <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative top-32  md:left-[20px]'>
             <div className='flex flex-col items-center w-[70px]'>
               <Link href="/about">
               <Image
@@ -63,6 +63,17 @@ function Gradient() {
                 width={40}
               />
               <span>Team</span>
+            </div>
+            </Link>
+            <Link href='/socials'>
+            <div className='flex flex-col items-center w-[70px]'>
+              <Image
+                src="/Icons/mummy.png"
+                alt='home image'
+                height={40}
+                width={40}
+              />
+              <span>Social</span>
             </div>
             </Link>
           </div>
