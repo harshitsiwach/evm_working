@@ -21,6 +21,7 @@
     "react-element-to-jsx-string": "^15.0.0",
     "react-fast-marquee": "^1.6.4",
     "react-slick": "^0.30.2",
+    "react-tweet": "^3.2.0",
     "slick-carousel": "^1.8.1",
     "sonner": "^1.4.3",
     "swiper": "^11.0.7",
