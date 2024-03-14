@@ -59,7 +59,7 @@ function page() {
 Embracing transparency and collaboration, we will be open-sourcing our codebase and providing comprehensive educational resources. This initiative invites aspiring developers to learn, innovate, and contribute to our project, fostering a dynamic community of creators dedicated to pushing the boundaries of blockchain gaming technology.               </div>
           </div> */}
       
-      <div className='fixed bg-black bottom-0 w-3/6 h-[150px]'>
+      <div className='fixed bg-black bottom-0 w-screen sm:w-3/6 h-[150px]'>
       <Marquee className=' corner-fade bg-black  'gradient={true} gradientColor='black'>
        
       <svg width="100" height="50" viewBox="0 0 1503 1504" fill="none" xmlns="http://www.w3.org/2000/svg">
