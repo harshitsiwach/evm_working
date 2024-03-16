@@ -7,7 +7,7 @@ function Gradient() {
     <div className='h-screen w-screen'>
       <BackgroundGradientAnimation className=' absolute'>
         <div className='flex justify-center items-center h-full'>
-          <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative sm:top-[110px] top-[100px] md:left-[30px]'>
+          <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative sm:top-[110px] top-[100px] sm:left-[30px] left-[15px]'>
             <div className='flex flex-col items-center w-[50px]'>
               <Link href="/about">
               <Image
