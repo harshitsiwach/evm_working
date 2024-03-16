@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 function Footer() {
   return (
-    <div className=" p-5 z-20 bottom-0 flex fixed w-full justify-between items-center h-[80px] bg-black sm:bg-transparent ">
-        <div className="text-xs font-bold md:text-xs  gap-5  md:gap-9 flex text-red-600">
+    <div className=" sm:p-5 p-1 z-20 bottom-0 flex fixed w-full justify-between items-center h-[80px] bg-black sm:bg-transparent ">
+        <div className="text-xs font-bold sm:text-xs gap-2 sm:gap-5  md:gap-9 flex text-red-600">
             <Link target="_blank" rel="noopener noreferrer" href="https://evmwarfare.itch.io/evmwarfare">
             <div className="cursor-pointer hover:text-white">
                
@@ -18,13 +18,13 @@ function Footer() {
                </Link>
           
         </div>
-        <div className="">
+        <div className="flex items-center justify-center sm:mr-0 mr-3">
             <Link href={"/"}>
             <Image className="bg-transparent transition-transform hover:scale-110 cursor-pointer" src='/logoBlackT.png' alt="image" width={70} height={80}/>
             </Link>
             
         </div>
-        <div className="flex text-xs md:text-xs font-bold gap-3 items-center">
+        <div className="flex text-xs md:text-xs font-bold sm:gap-3 gap-1 items-center">
             <div className="bg-transparent">
             <Link target="_blank" rel="noopener noreferrer" href='https://twitter.com/evmwarfare'>
             <svg className="cursor-pointer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40" viewBox="0 0 48 48">
