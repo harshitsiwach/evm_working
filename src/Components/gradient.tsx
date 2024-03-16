@@ -7,8 +7,8 @@ function Gradient() {
     <div className='h-screen w-screen'>
       <BackgroundGradientAnimation className=' absolute'>
         <div className='flex justify-center items-center h-full'>
-          <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative top-32  md:left-[20px]'>
-            <div className='flex flex-col items-center w-[70px]'>
+          <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative sm:top-[110px] top-[100px] md:left-[30px]'>
+            <div className='flex flex-col items-center w-[50px]'>
               <Link href="/about">
               <Image
                 src="/Icons/pentagram.png"
@@ -20,7 +20,7 @@ function Gradient() {
               </Link>
             </div>
             
-            <div className='flex flex-col items-center w-[70px]'>
+            <div className='flex flex-col items-center w-[50px]'>
               <Link href="/story">
               <Image
                 src="/Icons/satanism (1).png"
@@ -32,8 +32,8 @@ function Gradient() {
               </Link>
             </div>
 
-            <div className='flex flex-col items-center w-[70px]'>
-             <Link className='flex flex-col items-center w-[70px]' href="/characters">
+            <div className='flex flex-col items-center w-[50px]'>
+             <Link className='flex flex-col items-center w-[50px]' href="/characters">
               <Image
                 src="/Icons/goat.png"
                 alt='home image'
@@ -44,7 +44,7 @@ function Gradient() {
               </Link>
             </div>
             <Link href="/media">
-            <div className='flex flex-col items-center w-[70px]'>
+            <div className='flex flex-col items-center w-[50px]'>
               <Image
                 src="/Icons/satanic (1).png"
                 alt='home image'
@@ -55,7 +55,7 @@ function Gradient() {
             </div>
             </Link>
             <Link href='/team'>
-            <div className='flex flex-col items-center w-[70px]'>
+            <div className='flex flex-col items-center w-[50px]'>
               <Image
                 src="/Icons/666.png"
                 alt='home image'
@@ -66,7 +66,7 @@ function Gradient() {
             </div>
             </Link>
             <Link href='/socials'>
-            <div className='flex flex-col items-center w-[70px]'>
+            <div className='flex flex-col items-center w-[50px]'>
               <Image
                 src="/Icons/mummy.png"
                 alt='home image'
@@ -76,6 +76,17 @@ function Gradient() {
               <span>Social</span>
             </div>
             </Link>
+            <div className='flex flex-col items-center w-[50px]'>
+              <Link target="_blank" rel="noopener noreferrer" className='flex flex-col items-center w-[50px]' href="https://docs.evmwarfare.com/">
+              <Image
+                src="/Icons/satanism.png"
+                alt='home image'
+                height={40}
+                width={40}
+              />
+              <span>Docs</span>
+              </Link>
+            </div>
           </div>
         </div>
       </BackgroundGradientAnimation>
