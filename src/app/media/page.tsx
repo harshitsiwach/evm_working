@@ -7,17 +7,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
+import 'swiper/css/scrollbar';
 import './custom-swiper.css'
 
-
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Scrollbar, Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
 export default function App() {
   return (
     <>
-    <div className='h-screen w-screen flex items-center justify-center overflow-hidden'>
+    <div className='dark:bg-black h-screen w-screen flex items-center justify-center overflow-hidden'>
      <div className='h-[600px] w-3/4  overflow-hidden flex items-center justify-center'>
       <Swiper
        rewind={true}
@@ -27,11 +28,15 @@ export default function App() {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        scrollbar={{
+          hide: true,
+        }}
         pagination={{
           clickable: true,
+         
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Scrollbar, Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className=' h-[550px] w-full '>
