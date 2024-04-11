@@ -106,7 +106,7 @@ Embracing transparency and collaboration, we will be open-sourcing our codebase 
       />
       
       <Image
-      className='h-[60px] w-[60px]'
+      className='h-[50px] w-[50px]'
       src='/chains/Scroll_Logomark.673577c8260b63ae56867bc9af6af514.png'
       alt=''
       height={100}
@@ -114,7 +114,7 @@ Embracing transparency and collaboration, we will be open-sourcing our codebase 
       />
 
       <Image
-      className='h-[60px] w-[60px]'
+      className='h-[50px] w-[50px]'
       src='/chains/blast.png'
       alt=''
       height={100}
@@ -140,8 +140,8 @@ Embracing transparency and collaboration, we will be open-sourcing our codebase 
       />
 
 <Image
-      className='h-[50px] w-[60px]'
-      src='/chains/4e51e673a4cab52660512041d00e9186.png'
+      className='h-[50px] w-[50px]'
+      src='/chains/CITYPNG.COMHD_Unreal_Engine_White_Logo_Icon_PNG_-_3000x3000.png'
       alt=''
       height={100}
       width={100}
