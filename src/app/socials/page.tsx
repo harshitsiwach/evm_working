@@ -1,4 +1,4 @@
-    "use client";
+ "use client";
 
 import React, { useState, useEffect } from 'react'
 import { Tweet } from 'react-tweet'
@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "@/Components/ui/hero-highlight";
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
-export default function page() {
+export default function Page() {
       const [isClient, setIsClient] = useState(false);
 
       useEffect(() => {
@@ -29,7 +29,7 @@ export default function page() {
         Community
         </h1>
         <p style={{fontFamily : "PlusJakarta"}}>
-        Join our vibrant Discord community to chat live with the developers and other players! Get the latest updates, participate in community events, and have your say in our game's development.
+        Join our vibrant Discord community to chat live with the developers and other players! Get the latest updates, participate in community events, and have your say in our games development.
         </p>
         </div>
         <div className='h-auto rounded-sm w-[490px] flex justify-start items-start'>
