@@ -22,34 +22,34 @@ export default function Page() {
     <div className='  h-auto  gap-3 flex justify-start items-start'>
     <TracingBeam className="z-0">
 
-      <div className='mt-3 w-full flex justify-start items-start'>
-        <div className='h-full flex flex-col justify-between items-between'>
-        <div className='border border-red-500 p-3 m-3'>
-          <h1 className='text-[#F52239]' style={{fontFamily : "PressStart2P"}}>
+      <div className='mt-3 w-full flex justify-between items-between'>
+        <div className='h-auto flex flex-col justify-start items-center'>
+        <div className='rounded-lg border h-[170px] flex flex-col items-start justify-center border-red-500 p-3 m-3'>
+          <h1 className='text-[#F52239]  text-2xl' style={{fontFamily : "PressStart2P"}}>
         Community
         </h1>
         <p style={{fontFamily : "PlusJakarta"}}>
         Join our vibrant Discord community to chat live with the developers and other players! Get the latest updates, participate in community events, and have your say in our games development.
         </p>
         </div>
-        <div className='h-auto rounded-sm w-[490px] flex justify-start items-start'>
+        <div className='h-auto rounded-sm w-[515px] flex justify-start items-start'>
         <Tweet  id="1707418634849861856" />
         </div>
         </div>
-        <div className=''>
-        {isClient && ( <iframe className='mt-3' src="https://discord.com/widget?id=1088556262511349801&theme=dark" width="400" height="480" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>)}
+        <div className='h-auto'>
+        {isClient && ( <iframe className='mt-3' src="https://discord.com/widget?id=1088556262511349801&theme=dark" width="360" height="429" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>)}
         </div>
      </div>
 
 
 {/* // yt and iframe */}
 
-     <div className='mt-[20px] w-full flex flex-row items-start justify-start '>
-      <div className=' border border-red-500 p-3 m-3 w-[400px]'>
-          <h1 className='text-[#F52239]' style={{fontFamily : "PressStart2P"}}>
+     <div className=' w-full flex flex-row items-start justify-start '>
+      <div className='h-[165px] border border-red-500 p-3 m-3 w-[450px]'>
+          <h1 className='text-xl flex flex-col items-center justify-center text-[#F52239]' style={{fontFamily : "PressStart2P"}}>
         Early Access
         </h1>
-         <p style={{fontFamily : "PlusJakarta"}}>
+         <p className='text-sm' style={{fontFamily : "PlusJakarta"}}>
          Visit our Itch.io page to get early access to game builds and exclusive content. Support us directly by trying out prototypes and giving your valuable feedback.
         </p>
         </div>
