@@ -19,7 +19,7 @@ export default function Page() {
     <>
     <HeroHighlight >
       
-    <div className=' w-screen h-auto  gap-3 flex justify-start items-start'>
+    <div className='  h-auto  gap-3 flex justify-start items-start'>
     <TracingBeam className="z-0">
 
       <div className='mt-3 w-full flex justify-start items-start'>
@@ -74,8 +74,8 @@ export default function Page() {
     <div className='mt-5  w-full flex flex-row items-center justify-center '>
     {isClient && (<iframe width="660" height="315" src="https://www.youtube.com/embed/IRSmYXty8z0?si=A9Y7V8qNBF9nGDPB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>)}
     </div>
-    <div className=' mt-[100px]  w-full flex flex-row items-center justify-center sm:w-[1000px] h-[150px]'>
-      <div className=' w-screen sm:w-4/6 h-[150px]'>
+    <div className=' mt-[50px]  w-full flex flex-row items-center justify-center sm:w-[1000px] h-[150px]'>
+      <div className=' w-screen sm:w-4/6 h-[50px]'>
       <Marquee className='flex flex-row gap-4 corner-fade 'gradient={true} gradientColor='black'>
        <div className='flex flex-row justify-center items-center gap-6'>
       <Image
