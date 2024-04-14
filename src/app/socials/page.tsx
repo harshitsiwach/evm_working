@@ -19,10 +19,10 @@ export default function Page() {
     <>
     <HeroHighlight >
       
-    <div className='  h-auto  gap-3 flex justify-start items-start'>
-    <TracingBeam className="z-0">
+    <div className='  sm:h-auto h-auto  gap-3 flex sm:flex-row  flex-col justify-start items-start'>
+    <TracingBeam className="sm:z-0 z-0">
 
-      <div className='mt-3 w-full flex justify-between items-between'>
+      <div className='mt-3 w-full flex  sm:flex-row flex-col justify-between items-between'>
         <div className='h-auto flex flex-col justify-start items-center'>
         <div className='rounded-lg border h-[170px] flex flex-col items-start justify-center border-red-500 p-3 m-3'>
           <h1 className='text-[#F52239]  text-2xl' style={{fontFamily : "PressStart2P"}}>
@@ -32,11 +32,11 @@ export default function Page() {
         Join our vibrant Discord community to chat live with the developers and other players! Get the latest updates, participate in community events, and have your say in our games development.
         </p>
         </div>
-        <div className='h-auto rounded-sm w-[515px] flex justify-start items-start'>
+        <div className='h-auto rounded-sm sm:w-[515px] w-[355px] flex justify-start items-start'>
         <Tweet  id="1707418634849861856" />
         </div>
         </div>
-        <div className='h-auto'>
+        <div className='h-auto sm:flex flex sm:items-start items-center sm:justify-center justify-center'>
         {isClient && ( <iframe className='mt-3' src="https://discord.com/widget?id=1088556262511349801&theme=dark" width="360" height="429" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>)}
         </div>
      </div>
@@ -44,8 +44,8 @@ export default function Page() {
 
 {/* // yt and iframe */}
 
-     <div className=' w-full flex flex-row items-start justify-start '>
-      <div className='h-[165px] border border-red-500 p-3 m-3 w-[450px]'>
+     <div className=' sm:w-full w-full flex sm:flex-row flex-col items-start justify-start '>
+      <div className='h-[165px] border border-red-500 p-3 m-3 sm:w-[450px] w-[350px]'>
           <h1 className='text-xl flex flex-col items-center justify-center text-[#F52239]' style={{fontFamily : "PressStart2P"}}>
         Early Access
         </h1>
@@ -56,10 +56,11 @@ export default function Page() {
         
     
         <div className='m-3'>
-        {isClient && ( <iframe 
+        {isClient && ( <iframe
+        className='sm:w-[552px] w-full' 
         frameBorder="0" 
         src="https://itch.io/embed/2570965?bg_color=222222&fg_color=eeeeee&link_color=be2424&border_color=363636" 
-        width="552" 
+       
         height="167" 
         style={{border: 'none'}}  // Ensure border style is applied correctly
     >
@@ -74,7 +75,8 @@ export default function Page() {
     <div className='mt-5  w-full flex flex-row items-center justify-center '>
     {isClient && (<iframe width="660" height="315" src="https://www.youtube.com/embed/IRSmYXty8z0?si=A9Y7V8qNBF9nGDPB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>)}
     </div>
-    <div className=' mt-[50px]  w-full flex flex-row items-center justify-center sm:w-[1000px] h-[150px]'>
+    <div className=' mt-[55px]  w-full flex flex-col gap-3 items-center justify-center sm:w-[1000px] h-[150px]'>
+      <div className='mb-2 text-[#F52239] text-xl' style={{fontFamily : "PressStart2P"}}>Made With </div>
       <div className=' w-screen sm:w-4/6 h-[50px]'>
       <Marquee className='flex flex-row gap-4 corner-fade 'gradient={true} gradientColor='black'>
        <div className='flex flex-row justify-center items-center gap-6'>
