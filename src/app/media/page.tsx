@@ -44,8 +44,8 @@ export default function App() {
         className='h-full  w-full'
         src='/Media2/x_1.png'
         alt=''
-        height={900}
-        width={900}
+        height={2000}
+        width={2000}
         />
       </SwiperSlide> 
    
@@ -54,8 +54,8 @@ export default function App() {
         className='h-full  w-full'
         src='/Media2/x_2.png'
         alt=''
-        height={900}
-        width={900}
+        height={2000}
+        width={2000}
         />
       </SwiperSlide> 
       <SwiperSlide className=' h-[550px] w-full '>
@@ -63,8 +63,8 @@ export default function App() {
         className='h-full  w-full'
         src='/Media2/x_3.png'
         alt=''
-        height={900}
-        width={900}
+        height={2000}
+        width={2000}
         />
       </SwiperSlide> 
       <SwiperSlide className=' h-[550px] w-full '>
@@ -72,8 +72,8 @@ export default function App() {
         className='h-full  w-full'
         src='/Media2/x_4.png'
         alt=''
-        height={900}
-        width={900}
+        height={2000}
+        width={2000}
         />
       </SwiperSlide> 
       <SwiperSlide className=' h-[550px] w-full '>
@@ -81,8 +81,8 @@ export default function App() {
         className='h-full  w-full'
         src='/Media2/ss3.png'
         alt=''
-        height={900}
-        width={900}
+        height={2000}
+        width={2000}
         />
       </SwiperSlide> 
       <SwiperSlide className=' h-[550px] w-full '>
@@ -90,8 +90,8 @@ export default function App() {
         className='h-full  w-full'
         src='/Media2/2.png'
         alt=''
-        height={900}
-        width={900}
+        height={2000}
+        width={2000}
         />
       </SwiperSlide> 
       </Swiper>
