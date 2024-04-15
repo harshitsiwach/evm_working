@@ -42,7 +42,7 @@ export default function App() {
         <SwiperSlide className=' h-[550px] w-full '>
         <Image
         className='h-full  w-full'
-        src='/Game Ui/1.png'
+        src='/Media2/x_1.png'
         alt=''
         height={900}
         width={900}
@@ -52,7 +52,7 @@ export default function App() {
       <SwiperSlide className=' h-[550px] w-full '>
         <Image
         className='h-full  w-full'
-        src='/Game Ui/4.png'
+        src='/Media2/x_2.png'
         alt=''
         height={900}
         width={900}
@@ -61,7 +61,7 @@ export default function App() {
       <SwiperSlide className=' h-[550px] w-full '>
         <Image
         className='h-full  w-full'
-        src='/Game Ui/5.png'
+        src='/Media2/x_3.png'
         alt=''
         height={900}
         width={900}
@@ -70,7 +70,7 @@ export default function App() {
       <SwiperSlide className=' h-[550px] w-full '>
         <Image
         className='h-full  w-full'
-        src='/Game Ui/6.png'
+        src='/Media2/x_4.png'
         alt=''
         height={900}
         width={900}
@@ -79,7 +79,7 @@ export default function App() {
       <SwiperSlide className=' h-[550px] w-full '>
         <Image
         className='h-full  w-full'
-        src='/Game Ui/ag.png'
+        src='/Media2/ss3.png'
         alt=''
         height={900}
         width={900}
@@ -88,7 +88,7 @@ export default function App() {
       <SwiperSlide className=' h-[550px] w-full '>
         <Image
         className='h-full  w-full'
-        src='/Game Ui/we.png'
+        src='/Media2/2.png'
         alt=''
         height={900}
         width={900}
