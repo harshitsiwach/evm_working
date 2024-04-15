@@ -19,7 +19,7 @@ export default function Page() {
     <>
     <HeroHighlight >
       
-    <div className='  sm:h-auto h-auto  gap-3 flex sm:flex-row  flex-col justify-start items-start'>
+    <div className=' sm:mb-0 mb-8 sm:h-auto h-auto  gap-3 flex sm:flex-row  flex-col justify-start items-start'>
     <TracingBeam className="sm:z-0 z-0">
 
       <div className='mt-3 w-full flex  sm:flex-row flex-col justify-between items-between'>
@@ -44,7 +44,7 @@ export default function Page() {
 
 {/* // yt and iframe */}
 
-     <div className=' sm:w-full w-full flex sm:flex-row flex-col items-start justify-start '>
+     <div className=' sm:w-full w-full flex sm:flex-row flex-col sm:items-start items-center justify-start '>
       <div className='h-[165px] border border-red-500 p-3 m-3 sm:w-[450px] w-[350px]'>
           <h1 className='text-xl flex flex-col items-center justify-center text-[#F52239]' style={{fontFamily : "PressStart2P"}}>
         Early Access
@@ -73,7 +73,7 @@ export default function Page() {
      
     </div>
     <div className='mt-5  w-full flex flex-row items-center justify-center '>
-    {isClient && (<iframe width="660" height="315" src="https://www.youtube.com/embed/IRSmYXty8z0?si=A9Y7V8qNBF9nGDPB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>)}
+    {isClient && (<iframe className='sm:w-[660px] w-[350px]'  height="315" src="https://www.youtube.com/embed/IRSmYXty8z0?si=A9Y7V8qNBF9nGDPB" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>)}
     </div>
     <div className=' mt-[55px]  w-full flex flex-col gap-3 items-center justify-center sm:w-[1000px] h-[150px]'>
       <div className='mb-2 text-[#F52239] text-xl' style={{fontFamily : "PressStart2P"}}>Made With </div>
