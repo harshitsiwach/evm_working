@@ -29,8 +29,8 @@ function page() {
           
             />
             <div className="opacity-0 hover:opacity-100 ml-5  ease-in-out duration-300  h-full  relative  overflow-hidden bottom-[490px] ">
-              Artist <br />
-              HAZARD
+            HAZARD <br />
+              Artist
             </div>
             
         </div>
