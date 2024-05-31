@@ -1,11 +1,11 @@
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../Components/Header"
 import Footer from "../Components/Footer";
-import '@rainbow-me/rainbowkit/styles.css';
-import { Providers } from './providers';
-
+import { ThirdwebProvider } from "@/Components/ThirdwebProvider";
+import { metamaskWallet, smartWallet,rabbyWallet,walletConnect } from "@/Components/wallets"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,12 +29,18 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-      <Providers>
+      <ThirdwebProvider
+       activeChain="ethereum"
+       clientId="e49353adfb5220e9425d0ed9f0a7bac7"
+    
+       >
         <Header/>
-      
+        
         {children}
+      
         <Footer/>
-        </Providers>
+        </ThirdwebProvider>
+       
         </body>
     </html>
   );

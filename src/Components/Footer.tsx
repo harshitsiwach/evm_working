@@ -2,9 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 function Footer() {
   return (
-    <div className=" sm:p-5 p-1 z-20 bottom-0 flex fixed w-full justify-between items-center h-[80px] bg-black sm:bg-transparent ">
+    <div className=" sm:p-9 p-1 z-20 bottom-0 flex fixed w-screen justify-between items-center h-[80px] bg-black sm:bg-transparent ">
         <div className="text-xs font-bold sm:text-xs gap-2 sm:gap-5  md:gap-9 flex text-red-600">
-            <Link target="_blank" rel="noopener noreferrer" href="https://evmwarfare.itch.io/evmwarfare">
+            <Link  href="https://onedrive.live.com/download?resid=9B503E22AA6AE809!1660&authkey=!AAUxRXEVfW12zvE">
             <div className="cursor-pointer hover:text-white">
                
                 DOWNLOAD
