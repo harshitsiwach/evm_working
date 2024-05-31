@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "../Components/Header"
 import Footer from "../Components/Footer";
 import { ThirdwebProvider } from "@/Components/ThirdwebProvider";
-import { metamaskWallet, smartWallet,rabbyWallet,walletConnect } from "@/Components/wallets"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
