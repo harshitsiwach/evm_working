@@ -57,8 +57,7 @@ const MyComponent: React.FC = () => {
          </button> */}
           <ConnectWallet
           
-            
-/>
+          />
           <div className='w-[65px] mr-9'>
           <div className='text-red-600' >{currentTime}</div>
           </div>

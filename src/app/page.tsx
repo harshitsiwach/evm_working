@@ -6,12 +6,13 @@ import Gradient from "../Components/gradient";
 
 
 export default function Home() {
-
+  useEffect(() => {
     new Kursor({
       type: 3,
       color: '#F52239',
       removeDefaultCursor: true
     });
+  })
   
   return (
   
