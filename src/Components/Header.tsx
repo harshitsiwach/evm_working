@@ -61,7 +61,7 @@ const MyComponent: React.FC = () => {
           
           style={{
             display: 'inline-flex',
-            height: '40px', // Equivalent to h-10 in Tailwind
+            height: '45px', // Equivalent to h-10 in Tailwind
             alignItems: 'center',
             justifyContent: 'center',
             borderRadius: '0.375rem', // Equivalent to rounded-md
