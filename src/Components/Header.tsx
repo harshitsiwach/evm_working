@@ -6,7 +6,8 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import reactElementToJSXString from "react-element-to-jsx-string";
 import { toast, Toaster } from "sonner";
 import { ButtonsCard } from "@/Components/ui/tailwindcss-buttons";
-import { ConnectWallet } from "@thirdweb-dev/react";
+import { ConnectWallet,darkTheme,  } from "@thirdweb-dev/react";
+
 
 // time function
 const MyComponent: React.FC = () => {
@@ -57,6 +58,23 @@ const MyComponent: React.FC = () => {
          </button> */}
           <ConnectWallet
           
+          
+          style={{
+            display: 'inline-flex',
+            height: '40px', // Equivalent to h-10 in Tailwind
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderRadius: '0.375rem', // Equivalent to rounded-md
+            border: '1px solid #f52239', // Example color, adjust as needed
+            background: 'linear-gradient(110deg, #000103 45%, #f52239 55%, #000103)',
+            backgroundSize: '200% 100%',
+            padding: '0 1.5rem', // Equivalent to px-6
+            fontSize: '0.875rem', // Equivalent to text-sm
+            color: '#f52239', // Example color, adjust as needed
+            transition: 'color 0.2s', // Example transition
+            animation: 'shimmer 3s linear infinite' // Referencing the keyframes defined in global CSS
+        }}
+       
           />
           <div className='w-[65px] mr-9'>
           <div className='text-red-600' >{currentTime}</div>
