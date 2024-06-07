@@ -1,24 +1,39 @@
-
+"use client"
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../Components/Header"
 import Footer from "../Components/Footer";
 import { ThirdwebProvider } from "@/Components/ThirdwebProvider";
+import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "EVM WARFARE",
-  description: "EVM WARFARE",
-  icons :{
-    icon : ['/Favicon/favicon.ico'],
-    apple : ['/Favicon/apple-touch-icon.png'],
-    android : ['/Favicon/android-chrome-512x512.png', '/Favicon/android-chrome-192x192.png']
+// export const metadata: Metadata = {
+//   title: "EVM WARFARE",
+//   description: "EVM WARFARE",
+//   icons :{
+//     icon : ['/Favicon/favicon.ico'],
+//     apple : ['/Favicon/apple-touch-icon.png'],
+//     android : ['/Favicon/android-chrome-512x512.png', '/Favicon/android-chrome-192x192.png']
     
-}as any
-};
+// }as any
+// };
+
+// const baseSepolia = defineChain({
+//   id: 84532,
+//   name: "Base Sepolia",
+//   nativeCurrency: { name: "Sepolia Ether", symbol: "ETH", decimals: 18 },
+//   blockExplorers: [
+//     {
+//       name: "Basescan",
+//       url: "https://sepolia.basescan.org",
+//       apiUrl: "https://api-sepolia.basescan.org/api",
+//     },
+//   ],
+//   testnet: true,
+// });
 
 export default function RootLayout({
   children,
@@ -30,7 +45,7 @@ export default function RootLayout({
       
       <body className={inter.className}>
       <ThirdwebProvider
-       activeChain="ethereum"
+       activeChain={BaseSepoliaTestnet}
        clientId="e49353adfb5220e9425d0ed9f0a7bac7"
     
        >
