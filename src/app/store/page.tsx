@@ -5,8 +5,20 @@ import React, { useState } from "react";
 const Page: React.FC = () => {
   const address = useAddress();
   const { contract } = useContract("0xF13F673b00bfbDAB289019A776B3ff9690B3e9b5");
+  const [count, setCount] = useState<number>(0)
 
   const [amount, setAmount] = useState<number>(1);
+
+  const decrement = () => {
+    if(count === 0 ){
+      return
+    }
+    setCount(prevCount => prevCount - 1);
+  };
+
+  const increment = () => {
+    setCount(prevCount => prevCount + 1);
+  };
 
   const handleTransaction = async () => {
     console.log(contract);
@@ -35,7 +47,11 @@ const Page: React.FC = () => {
   return (
     <div className="mt-[90px] h-screen w-full flex justify-center items-center">
       <div>
-        <div>Store</div>
+        <div className="flex w-full justify-center items-center gap-4 h-[100px]">
+          <button onClick={decrement} className="">-</button>
+          <div>{count}</div>
+          <button onClick={increment}>+</button>
+        </div>
         <button onClick={handleTransaction} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
           Confirm Transaction
         </button>
