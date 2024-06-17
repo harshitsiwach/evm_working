@@ -6,7 +6,7 @@ import Header from "../Components/Header"
 import Footer from "../Components/Footer";
 import { ThirdwebProvider } from "@/Components/ThirdwebProvider";
 
-// import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
+import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
 
 
 const inter = Inter({ subsets: ["latin"] });
