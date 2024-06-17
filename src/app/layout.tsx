@@ -12,7 +12,7 @@ import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EVM WARFARE",
+  title: "EVM Warfare -  Third-Person Shooter on Blockchain",
   description: "EVM Warfare is a visceral third-person shooter built on Unreal Engine 5. It seamlessly integrates with all Ethereum Virtual Machine (EVM) compatible blockchains, allowing players to experience unparalleled interoperability and strategic depth.",
   icons :{
     icon : ['/Favicon/favicon.ico'],
