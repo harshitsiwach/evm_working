@@ -1,25 +1,26 @@
-"use client"
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../Components/Header"
 import Footer from "../Components/Footer";
 import { ThirdwebProvider } from "@/Components/ThirdwebProvider";
-import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
+
+// import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-//   title: "EVM WARFARE",
-//   description: "EVM WARFARE",
-//   icons :{
-//     icon : ['/Favicon/favicon.ico'],
-//     apple : ['/Favicon/apple-touch-icon.png'],
-//     android : ['/Favicon/android-chrome-512x512.png', '/Favicon/android-chrome-192x192.png']
+export const metadata: Metadata = {
+  title: "EVM WARFARE",
+  description: "EVM WARFARE",
+  icons :{
+    icon : ['/Favicon/favicon.ico'],
+    apple : ['/Favicon/apple-touch-icon.png'],
+    android : ['/Favicon/android-chrome-512x512.png', '/Favicon/android-chrome-192x192.png']
     
-// }as any
-// };
+}as any
+};
 
 // const baseSepolia = defineChain({
 //   id: 84532,
