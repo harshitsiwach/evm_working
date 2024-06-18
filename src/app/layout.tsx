@@ -19,7 +19,16 @@ export const metadata: Metadata = {
     apple : ['/Favicon/apple-touch-icon.png'],
     android : ['/Favicon/android-chrome-512x512.png', '/Favicon/android-chrome-192x192.png']
     
-}as any
+}as any,
+openGraph :{
+  title:"EVM Warfare -  Third-Person Shooter on Blockchain",
+  description: "EVM Warfare is a visceral third-person shooter built on Unreal Engine 5. It seamlessly integrates with all Ethereum Virtual Machine (EVM) compatible blockchains, allowing players to experience unparalleled interoperability and strategic depth.",
+  type: 'website',
+  locale : "en_US",
+  url: "https://evmwarfare.com/",
+  siteName : "Evm Warfare",
+  
+}
 };
 
 // const baseSepolia = defineChain({
