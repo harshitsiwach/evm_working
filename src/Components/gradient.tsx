@@ -87,7 +87,7 @@ function Gradient() {
               <span>Docs</span>
               </Link>
             </div>
-            {/* <div className='flex flex-col items-center w-[50px]'>
+            <div className='flex flex-col items-center w-[50px]'>
               <Link  className='flex flex-col items-center w-[50px]' href="/store">
               <Image
                 src="/Icons/satanism.png"
@@ -97,7 +97,7 @@ function Gradient() {
               />
               <span>Store</span>
               </Link>
-            </div> */}
+            </div>
           </div>
         </div>
       </BackgroundGradientAnimation>
