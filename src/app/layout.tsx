@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 import { ThirdwebProvider } from "@/Components/ThirdwebProvider";
 
 import {BaseSepoliaTestnet} from "@thirdweb-dev/chains";
-
+import {Taiko} from "@thirdweb-dev/chains"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,6 +57,7 @@ export default function RootLayout({
       <ThirdwebProvider
        activeChain={BaseSepoliaTestnet}
        clientId="e49353adfb5220e9425d0ed9f0a7bac7"
+       supportedChains={[Taiko]}
     
        >
         <Header/>
