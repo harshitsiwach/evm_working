@@ -87,16 +87,20 @@ function Gradient() {
               <span>Docs</span>
               </Link>
             </div>
-            <div className='flex flex-col items-center w-[50px]'>
-              <Link  className='flex flex-col items-center w-[50px]' href="/store">
+            <div className='flex flex-col items-center w-[50px] group relative group-hover:opacity-100'>
+              <Link  className='flex flex-col items-center w-[50px]' href="">
               <Image
-                src="/Icons/satanism.png"
+                
+                src="/Icons/illuminati.png"
                 alt='home image'
                 height={40}
                 width={40}
               />
               <span>Store</span>
               </Link>
+              <div className='p-2 relative w-[100px] left-3 rounded-md bg-[#F52239] text-black bottom-0 opacity-0 group-hover:opacity-100 transition-opacity'>
+                coming soon...
+              </div>
             </div>
           </div>
         </div>

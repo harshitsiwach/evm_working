@@ -1,18 +1,19 @@
 import Image from "next/image"
 import Link from "next/link"
+import Download from "./download";
 import { Dock, DockIcon } from "@/Components/magicui/dock";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 function Footer() {
   return (
-    <div className=" sm:p-9 p-1 z-20 bottom-0 flex fixed w-screen justify-between items-center h-[80px] bg-black sm:bg-transparent ">
+    <div className=" sm:p-9 p-1 z-20 bottom-0 fixed flex  w-full justify-between items-center h-[80px] bg-transparent sm:bg-transparent ">
         <div className="text-xs font-bold sm:text-xs gap-2 sm:gap-5  md:gap-9 flex text-red-600">
-            <Link  href="https://onedrive.live.com/download?resid=9B503E22AA6AE809!1660&authkey=!AAUxRXEVfW12zvE">
-            <div className="cursor-pointer hover:text-white">
+           
+            <div className="">
                
-                DOWNLOAD
+               <Download/>
                
                </div>
-               </Link>
+              
                <Link href="/privacypolicy">
                <div className="cursor-pointer hover:text-white">
                 PRIVACY POLICY

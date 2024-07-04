@@ -15,11 +15,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      backdropBlur: {
+        xs: '2px',
+      },
       keyframes: {
         "background-position-spin": {
           "0%": { backgroundPosition: "top center" },
           "100%": { backgroundPosition: "bottom center" },
+        },
+        move: {
+          "0%": { transform: "translateX(-200px)" },
+          "100%": { transform: "translateX(200px)" },
         },
         scroll: {
           '0%': { transform: 'translateX(0%)' },
@@ -45,6 +51,7 @@ const config: Config = {
         'circular-path': 'circularPath 5s linear infinite',
         shimmer: "shimmer 2s linear infinite",
         scroll: 'scroll 5s linear infinite',
+        move: "move 5s linear infinite",
       },
       
       
