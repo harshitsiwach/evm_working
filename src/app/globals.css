@@ -45,6 +45,13 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'conthrax';
+  src: url('/Font/conthrax-sb.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Add this to your styles.css */
 .transition-height {
   transition: height 500ms ease-in-out;

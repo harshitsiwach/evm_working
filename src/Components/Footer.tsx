@@ -19,6 +19,12 @@ function Footer() {
                 PRIVACY POLICY
                </div>
                </Link>
+
+               <Link href="/brandkit">
+               <div className="cursor-pointer hover:text-white">
+                BRAND KIT
+               </div>
+               </Link>
           
         </div>
         <div className="flex items-center justify-center sm:mr-0 mr-3">
