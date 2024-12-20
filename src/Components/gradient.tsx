@@ -2,10 +2,17 @@ import React from 'react';
 import { BackgroundGradientAnimation } from "@/Components/ui/background-gradient-animation";
 import Image from 'next/image';
 import Link from 'next/link';
+
+import dynamic from 'next/dynamic';
+const NeuralBackground = dynamic(
+  () => import('@/Components/mukbg'),
+  { ssr: false }
+);
+
 function Gradient() {
   return (
     <div className='h-screen w-screen'>
-      <BackgroundGradientAnimation className=' absolute'>
+      <NeuralBackground  ><div className='absolute'>
         <div className='flex justify-center items-center h-full'>
           <div className='text-xs gap-7 z-20 flex flex-col items-center justify-center relative sm:top-[110px] top-[100px] sm:left-[30px] left-[15px]'>
             <div className='flex flex-col items-center w-[50px]'>
@@ -104,8 +111,11 @@ function Gradient() {
             </div>
           </div>
         </div>
-      </BackgroundGradientAnimation>
-    </div>
+        </div>
+      </NeuralBackground>
+
+      </div>
+    
   );
 }
 
